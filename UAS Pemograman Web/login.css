@@ -1,0 +1,78 @@
+.row {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 100vh;
+    padding: 0px 200px;
+}
+h1{
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.pembungkus {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.gambar{
+    width: 50%;
+    display: flex;
+}
+.gambar img {
+    width: 500px;
+}
+
+.isi {
+    width: 60%;
+    height: 300px;
+    padding: 0px 20px;
+    background-color: #9cc3ff;
+    text-align: center; 
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+
+.content {
+    display: flex;
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    background-color: #1cbd7f;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
